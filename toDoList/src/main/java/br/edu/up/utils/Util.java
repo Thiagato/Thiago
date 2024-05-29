@@ -18,8 +18,9 @@ public class Util {
             return opcao;
         }catch (InputMismatchException ex){
             logger.error("usuario é burro", ex);
-            sc.next();
             return 99;
+        } finally {
+            sc.nextLine();
         }
     }
 

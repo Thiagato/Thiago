@@ -1,6 +1,7 @@
 package br.edu.up;
 
 import br.edu.up.utils.Util;
+import br.edu.up.views.ToDoView;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
